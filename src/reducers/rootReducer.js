@@ -3,15 +3,16 @@ import { handleActions } from 'redux-actions';
 import * as actions from '../actions';
 
 
-const text = handleActions({
-    [actions.addTask]() {
-        return '';
+const user = handleActions({
+    [actions.registration](state, { payload }) {
+        //тут будут асинхронные функции запроса к серверу
+        //payload = инфа с форм
     },
-    [actions.updateNewTaskText](state, { payload }) {
-        return payload.text;
+    [actions.login](state, { payload }) {
+        //тут будут асинхронные функции запроса к серверу
     },
-}, '');
+}, {});
 
 export default combineReducers({
-    text,
+    user,
 });

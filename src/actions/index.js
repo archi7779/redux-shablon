@@ -1,4 +1,4 @@
 import { createAction } from 'redux-actions';
 
-export const addTask = createAction('TASK_ADD');
-export const updateNewTaskText = createAction('NEW_TASK_TEXT_UPDATE');
+export const registration = createAction('REGISTR_NEW_USER');
+export const login = createAction('LOG_IN_WITH_EMAIL_AND_PASSWORD');
