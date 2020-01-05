@@ -1,22 +1,7 @@
 import React  from "react";
 import { Formik, Field, Form } from 'formik';
-import { Input, Button} from 'antd';
-import { connect } from 'react-redux';
-import * as actions from '../actions';
+import { Input } from 'antd'
 
-
-
-const mapStateToProps = (state) => {
-    const props = {
-        text: state.text,
-    };
-    return props;
-};
-
-const actionCreators = {
-    updateNewTaskText: actions.updateNewTaskText,
-    addTask: actions.addTask,
-};
 
 export default class Login extends React.Component {
     constructor(props) {
@@ -29,26 +14,29 @@ export default class Login extends React.Component {
             <Formik
                 validateOnChange={true}
                 initialValues={{
+                    name: '',
                     password: '',
+                    repeatPassword: '',
                     email: '',
+                    website: '',
+                    age: undefined,
+                    skills: [],
+                    acceptTerms: false,
                 }}
                 // validationSchema={validationSchema}
                 onSubmit={(data, {setSubmitting})=>{
                     setSubmitting(true);
                     const sendDataToServer = async () => {
-                       console.log('ejej')
+                        console.log('ejej')
                     };
-
                     sendDataToServer();
                     setSubmitting(false);
                 }}>
                 {({values, errors, isSubmitting, handleSubmit, touched})=>(
                     <>
-                    <Form className='loginForm'>
-                        <Field name='email' type='input'  as={Input}  placeholder='enter ur email'/>
-                        <Field name='password' type='input'  as={Input}  placeholder='enter ur password'/>
-                        <Button type="primary" htmlType="submit">Submit</Button>
-                    </Form>
+                        <Form className='loginForm'>
+                            <div>Registation</div>
+                        </Form>
                     </>
                 )}
             </Formik>

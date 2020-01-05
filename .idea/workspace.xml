@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b17857-2c07-49ee-afe3-13bc9a6afd6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Registration.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/rootReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578164717102</updated>
-      <workItem from="1578164719797" duration="3359000" />
+      <workItem from="1578164719797" duration="14733000" />
     </task>
     <servers />
   </component>
@@ -84,17 +82,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578165307628">
+    <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578174559885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578165307628" />
+    <state x="735" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578174559885" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578166766332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578166766332" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578168049246">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578172044526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578168049246" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578172044526" />
   </component>
 </project>
